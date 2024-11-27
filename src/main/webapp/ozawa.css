@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-/*背景画像の設定*/
+/* 背景画像の設定 */
 body{
 	background-image: url(./img/ぼかし.JPG);
 	background-size: cover;
 }
 
 
-/*基本メインブロック*/
+/* 基本メインブロック */
 .main, .top-menu, .footer{
 	width: 50%;
 	margin: 20px auto 50px;
@@ -16,7 +16,7 @@ body{
 }
 
 
-/*--トップページタイトル用--*/
+/* トップページタイトル用 */
 .header{
 	margin: 20px auto 50px;
 	width: 60%;
@@ -60,19 +60,46 @@ h1::after {
 }
 
 
-/*--NEWSページ用--*/
+/* NEWSページ用 */
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
+
 ul li {
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
+	width: 80%;
+	background-color: white;
+	margin:0 10% 2rem;
+    padding: 1rem;
+    outline: 1px solid #ccc;
+    outline-offset: 0.3rem;
     border-left: 5px solid #98fb98;
-    border-radius: 3px;
-    background-color: #F9F9F9;
     color: #333;
     line-height: 1.5;
 }
 
+/* NEWSの詳細ページ用*/
+.news{
+		width: 50%;
+		margin: 20px auto 50px;
+		padding: 0.5rem;
+		background-color:white;
+}
+
+
+.news-page{
+	width: 50%;
+	margin: 20px auto 50px;
+	padding: 0.5rem;
+	background-color:white;
+}
+
+
+/* FOOD+GOODSページ */
+.food, .goods{
+	width: 50%;
+	margin: 20px auto 50px;
+	padding: 0.5rem;
+	background-color:white;
+	text-align: center;
+}

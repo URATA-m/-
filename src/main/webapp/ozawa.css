@@ -1,12 +1,28 @@
 @charset "UTF-8";
 
+/*背景画像の設定*/
 body{
-	margin:1px;
-	padding:1px;
+	background-image: url(./img/ぼかし.JPG);
+	background-size: cover;
+}
+
+
+/*基本メインブロック*/
+.main, .top-menu, .footer{
+	width: 50%;
+	margin: 20px auto 50px;
+	background-color:white;
 	text-align: center;
 }
 
+
 /*--トップページタイトル用--*/
+.header{
+	margin: 20px auto 50px;
+	width: 60%;
+	text-align: center;
+}
+
 h1 {
     position: relative;
     padding: 1rem;
@@ -18,7 +34,6 @@ h1 {
     font-weight: bold;
     text-align: center;
  }
-
 
 h1::before,
 h1::after {
@@ -44,6 +59,7 @@ h1::after {
     transform: skewX(45deg);
 }
 
+
 /*--NEWSページ用--*/
 ul {
     list-style-type: none;
@@ -59,3 +75,4 @@ ul li {
     color: #333;
     line-height: 1.5;
 }
+

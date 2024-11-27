@@ -1,0 +1,22 @@
+@charset "UTF-8";
+html,body{
+	width:100%;
+	margin:0;
+}
+
+.parent{
+	width:90%;
+	margin:5%;
+}
+
+.relative{
+	width:100%;
+	position:relative;
+}
+
+.absolute-obj{
+	position:absolute;
+	top:227px;
+	left:75px;
+}
+

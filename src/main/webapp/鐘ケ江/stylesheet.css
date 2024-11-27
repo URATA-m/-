@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body{
+	font-family:"Avenir Next";
+}
+
+li{
+	list-style:none;
+}
+
+/*ヘッダー*/
+.header{
+	background-color:#26d0c9;
+	color:#fff;
+	height:90px;
+}
+
+.header-logo{
+	float:left;
+	font-size:36px;
+	padding:20px 40px;
+}
+
+.header-list{
+	float:left;
+}
+
+.header-list li{
+	float:left;
+	padding:20px 20px;
+}
+
+/*ヘッダー＞マウスホバー*/
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+	color: #fff;
+  text-decoration: none;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 0px;
+  transition: color .15s;
+}
+.link:hover,
+.link:focus {
+  color: hotpink;
+}
+
+.link-hover::after {
+  content: '▼';
+  font-size: 10px;
+}
+
+.dropDown {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px -2px #777;
+  color: initial;
+  transform: translate(0, 100%);
+}
+
+.link:hover > .dropDown,
+.link:focus > .dropDown {
+  display: block;
+}
+
+.dropDown__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropDown__link {
+	white-space: nowrap;
+	color:black;
+  padding: 10px 20px;
+  transition: color .15s;
+}
+.dropDown__link:hover,
+.dropDown__link:focus {
+  color: hotpink;
+}
+
+/*メイン*/
+.main{
+	padding:80px 80px;
+}
+
+.copy-container h1{
+	font-size:40px;
+}
+
+.copy-container h2{
+	font-size:20px;
+}
+
+.copy-container span{
+	color:#26d0c9;
+}
+
+.contents{
+	height:500px;
+	margin-top:100px;
+}
+
+.section-title{
+	border-bottom:2px solid #dee7ec;
+	font-size:28px;
+	padding-bottom:15px;
+	margin-bottom:50px;
+}
+
+.contents-item{
+	float:left;
+	margin-right:40px;
+}
+
+.contents-item p{
+	font-size:24px;
+	margin-top:30px;
+	margin-left:80px;
+}
+
+.contents-item p span{
+	color:#ff4a4a;
+}
+
+/*フッター*/
+.footer{
+	background-color:#2f5167;
+	color:#fff;
+	height:120px;
+	padding:40px;
+}
+
+.footer-logo{
+	float:left;
+	font-size:32px;
+}
+
+.footer-list{
+	float:right;
+}
+
+.footer-list li{
+	padding-bottom:20px;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+header{
+	font-size:25px;
+	text-align:center;
+	background-color:#7fffd4;
+	line-height:70px;
+	font-weight:bold;
+}
+
+.text-box{
+	width:300px;
+	margin:0 auto;
+	padding:0 1em;
+}

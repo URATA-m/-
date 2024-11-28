@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+	font-family:"Avenir Next";
+}
+
+/*ﾍｯﾀﾞｰ*/
+.header{
+	background-color:#26d0c9;
+	color:#fff;
+	height:90px;
+}
+
+.header-title{
+	text-align:center;
+	font-size:40px;
+	padding:20px 40px;
+}
+
+/*ﾒｲﾝ*/
+.main{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.caution{
+		margin: 16px auto;
+		text-align: center;
+		display: block;
+}
+
+.caution .text{
+	background-color:#26d0c9;
+	color: red;
+	text-align: left;
+	list-style:none;
+	display: inline-block;
+	
+	padding:10px;
+	border-radius: 10px;        /* 角丸指定 */
+}
+
+	/*ニュース*/
+.news{
+	margin:16px 30px;
+	text-align: center;
+	display:block;
+	background-color:#2f5167;
+	padding: 10px;
+}
+
+.news h1{
+	color:#26d0c9;
+	text-shadow: 
+	     var(--lcv-name-shadow-2),
+	     var(--lcv-comment-shadow-5);
+}

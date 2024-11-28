@@ -4,7 +4,7 @@
 
 function check(){
 	if(document. login. id. value==""){
-		window.alert("ＩＤが未入力です。");
+		window.alert("会員ＩＤが未入力です。");
 		return false;
 	}else if(document. login. pass. value==""){
 		window.alert("パスワードが未入力です。");

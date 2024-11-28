@@ -3,26 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>お問い合わせ</title>
+<link rel="stylesheet" type="text/css" href="./basic.css"/>
+<link rel="stylesheet" type="text/css" href="./問い合わせ.ウラタ.css"/>
 </head>
 <body>
-  <div align="center">
-	<h1>お問い合わせフォーム</h1>
-	以下のフォームに必要事項をご入力の上ご送信ください。<br/>追って、担当者よりご連絡致します。
-  <form id="frm1" name="frm1" action="./toiawase2.urata.html" method="get" onsubmit="return check();">
-  <script type="text/javascript" src="./toiawase.urata.js"></script>
-	お名前<br/>
-	<input type="text" name="name" /><br/><br/>
-	会員ID<br/>
-	<input type="text" name="ID" /><br/><br/>
-	メールアドレス<br/>
-	<input type="text" name="mail" /><br/><br/>
-	メールアドレス確認<br/>
-    <input type="text" name="mailcheck" /><br/><br/>
-  　お問い合わせ内容<br/>
-    <textarea name="comment" cols="50" rows="5"></textarea><br/><br/>
-	<input type="submit" value="送信"/>
-	<input type="reset" value="取消"/>
-  </form>
-  </div>
+	<div class="block2">
+	 	<div align="center">
+			<h1>お問い合わせフォーム</h1>
+			以下のフォームに必要事項をご入力の上ご送信ください。<br/>追って、担当者よりご連絡致します。
+		 </div>
+	  	  <div class="block1">
+  		<form id="frm1" name="frm1" action="./問い合わせ済.ウラタ.html" method="get" onsubmit="return check();">
+ 		 <script type="text/javascript" src="./問い合わせ.ウラタ.js"></script>
+			お名前<br/>
+			<input type="text" name="name" /><br/><br/>
+			会員ID<br/>
+			<input type="text" name="ID" /><br/><br/>
+			メールアドレス<br/>
+			<input type="text" name="mail" /><br/><br/>
+			メールアドレス確認<br/>
+  		  <input type="text" name="mailcheck" /><br/><br/>
+ 	 	　お問い合わせ内容<br/>
+ 	  	 <textarea name="comment" cols="25" rows="5"></textarea><br/><br/>
+			<input type="submit" value="送信"/>
+			<input type="reset" value="取消"/>
+ 		 </form>
+	    </div>
+	</div>
 </body>
 </html>

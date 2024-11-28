@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.container{
+  border: 1px solid;
+}
+.block1{
+	background-color:mediumspringgreen;
+	padding-top: 20px;
+    margin-left: 30%;
+	padding-bottom: 20px;
+    margin-right: 30%;
+	opacity: 0.7;
+}
+.block2{
+	background-color: white;
+	padding-top: 20px;
+	margin-left: 30%;
+	padding-bottom: 18%;
+	  margin-right: 30%;
+	  opacity: 0.7;
+	
+}

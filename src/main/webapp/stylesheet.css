@@ -10,7 +10,7 @@ li{
 
 /*ヘッダー*/
 .header{
-	background-color:#26d0c9;
+	background-color:#98fb98;
 	color:#fff;
 	height:90px;
 }
@@ -94,7 +94,7 @@ a {
 
 /*メイン*/
 .main{
-	padding:80px 80px;
+	padding:20px 80px;
 }
 
 .copy-container{
@@ -117,7 +117,7 @@ a {
 	width:300px;
 	padding:10px;
 	text-align:left;
-	background:#26d0c9;
+	background:#98fb98;
 	font-size:20px;
 	color:#FFF;
 	text-align: center;
@@ -126,7 +126,7 @@ a {
 }
 
 .copy-container span{
-	color:#26d0c9;
+	color:#98fb98;
 }
 
 .contents{

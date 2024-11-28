@@ -6,7 +6,7 @@ body{
 
 /*ﾍｯﾀﾞｰ*/
 .header{
-	background-color:#26d0c9;
+	background-color:#98fb98;
 	color:#fff;
 	height:90px;
 }
@@ -21,6 +21,7 @@ body{
 .main{
 	padding-left: 20%;
 	padding-right: 20%;
+	
 }
 
 .caution{
@@ -30,7 +31,7 @@ body{
 }
 
 .caution .text{
-	background-color:#26d0c9;
+	background-color:#98fb98;
 	color: red;
 	text-align: left;
 	list-style:none;
@@ -42,16 +43,88 @@ body{
 
 	/*ニュース*/
 .news{
-	margin:16px 30px;
+	margin:30px 100px;
 	text-align: center;
 	display:block;
-	background-color:#2f5167;
+	background-color:#d6ffea;
 	padding: 10px;
+	
+	border: solid;
+	border-color: #98fb98;
+	
+	
 }
 
 .news h1{
-	color:#26d0c9;
-	text-shadow: 
-	     var(--lcv-name-shadow-2),
-	     var(--lcv-comment-shadow-5);
+	color:white;
+	 -webkit-text-stroke: 1px black;
 }
+
+.news h2{
+	color:#98fb98;
+}
+
+	/*シートを探す*/
+.sheetsearch {
+	text-align:center;
+	margin:30px;
+}
+.sheetsearch ul{
+	margin-right:30%;
+	margin-left:30%;
+	list-style:none;
+	background-color: #98fb98;
+	border: solid;
+	border-color:green;
+}
+
+.sheetsearch li{
+	background-color:white;
+	padding:50px;
+	margin:30px;
+	margin-right:20%;
+	margin-left:20%;
+	font-size:20px;
+	border-radius: 10px;        /* 角丸指定 */
+}
+/*フッダー*/
+.footer{
+	background-color:#2f5167;
+	color:#fff;
+	height:120px;
+	padding:40px;
+}
+
+.footer-logo{
+	float:left;
+	font-size:32px;
+}
+
+.footer-list{
+	float:right;
+}
+
+.footer-list li{
+	padding-bottom:20px;
+	list-style:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

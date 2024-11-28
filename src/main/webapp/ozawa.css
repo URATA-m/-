@@ -7,12 +7,27 @@ body{
 }
 
 
-/* 基本メインブロック */
+/* 基本ブロック */
 .main, .top-menu, .footer{
 	width: 50%;
 	margin: 20px auto 50px;
 	background-color:white;
 	text-align: center;
+}
+
+/* トップページ ボタン(仮)*/
+a.btn_01 {
+	display: block;
+	text-align: center;		
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #98fb98;
+	background: #98fb98;
+	color: black;
+	transition: 0.5s;
 }
 
 
@@ -79,16 +94,8 @@ ul li {
 }
 
 /* NEWSの詳細ページ用*/
-.news{
-		width: 50%;
-		margin: 20px auto 50px;
-		padding: 0.5rem;
-		background-color:white;
-}
-
-
 .news-page{
-	width: 50%;
+	width: 65%;
 	margin: 20px auto 50px;
 	padding: 0.5rem;
 	background-color:white;
@@ -102,4 +109,14 @@ ul li {
 	padding: 0.5rem;
 	background-color:white;
 	text-align: center;
+}
+
+/* 参照サイトリンク用 */
+.end{
+	width: 50%;
+	margin: 20px auto 50px;
+	padding: 0.5rem;
+	background-color:white;
+	text-align: right;
+	opacity: 0.5;
 }

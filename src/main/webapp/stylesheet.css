@@ -2,6 +2,8 @@
 
 body{
 	font-family:"Avenir Next";
+	background-image: url(./img/ぼかし.JPG);
+	background-size: cover
 }
 
 li{

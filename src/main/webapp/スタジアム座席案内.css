@@ -33,7 +33,7 @@ body{
 }
 
 .caution .text{
-	background-color:#98fb98;
+	background-color:white;
 	color: red;
 	text-align: left;
 	list-style:none;
@@ -45,7 +45,7 @@ body{
 
 	/*ニュース*/
 .news{
-	margin:30px 100px;
+	margin:30px 120px;
 	text-align: center;
 	display:block;
 	background-color:#d6ffea;
@@ -60,6 +60,11 @@ body{
 .news h1{
 	color:white;
 	 -webkit-text-stroke: 1px black;
+}
+
+.dropDown__link:hover,
+.dropDown__link:focus {
+  color: hotpink;
 }
 
 .news h2{

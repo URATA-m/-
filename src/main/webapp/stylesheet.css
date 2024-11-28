@@ -3,7 +3,8 @@
 body{
 	font-family:"Avenir Next";
 	background-image: url(./img/ぼかし.JPG);
-	background-size: cover
+	background-size: cover;
+
 }
 
 li{
@@ -89,6 +90,7 @@ a {
   padding: 10px 20px;
   transition: color .15s;
 }
+
 .dropDown__link:hover,
 .dropDown__link:focus {
   color: hotpink;
@@ -97,6 +99,9 @@ a {
 /*メイン*/
 .main{
 	padding:20px 80px;
+	background-color: white;
+	margin-right:10%;
+	margin-left:10%;
 }
 
 .copy-container{
@@ -112,7 +117,7 @@ a {
 	font-size:20px;
 }
 
-.copy-container h3{
+.copy-container a{
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
@@ -132,6 +137,7 @@ a {
 }
 
 .contents{
+	text-align: center;
 	height:500px;
 	margin-top:100px;
 }
@@ -146,6 +152,8 @@ a {
 .contents-item{
 	float:left;
 	margin-right:40px;
+	margin-right:10%;
+	margin-left:10%;
 }
 
 .contents-item p{

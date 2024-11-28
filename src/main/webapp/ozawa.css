@@ -84,11 +84,12 @@ ul li {
 		margin: 20px auto 50px;
 		padding: 0.5rem;
 		background-color:white;
+		text-align: center;
 }
 
 
 .news-page{
-	width: 50%;
+	width: 65%;
 	margin: 20px auto 50px;
 	padding: 0.5rem;
 	background-color:white;
@@ -102,4 +103,13 @@ ul li {
 	padding: 0.5rem;
 	background-color:white;
 	text-align: center;
+}
+
+.copy{
+	width: 50%;
+	margin: 20px auto 50px;
+	padding: 0.5rem;
+	background-color:white;
+	text-align: right;
+	
 }

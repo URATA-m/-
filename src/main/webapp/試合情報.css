@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	background-image: url(./img/ぼかし.JPG);
+	background-size: cover;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+/*ﾍｯﾀﾞｰ*/
+.header{
+		background-color:#98fb98;
+		color:#fff;
+		height:90px;
+	}
+	
+	.header-logo{
+		float:left;
+		font-size:36px;
+		padding:20px 40px;
+	}
+	
+	/*ﾍｯﾀﾞｰホバー*/
+	.header-list{
+		float:left;
+	}
+
+	.header-list li{
+		float:left;
+		padding:20px 20px;
+	}
+
+	/*ヘッダー＞マウスホバー*/
+	ul {
+	  padding: 0;
+	  list-style: none;
+	}
+
+	a {
+		color: #fff;
+	  text-decoration: none;
+	}
+
+	.link {
+	  position: relative;
+	  display: flex;
+	  align-items: center;
+	  gap: 5px;
+	  padding: 0px 0px;
+	  transition: color .15s;
+	}
+	.link:hover,
+	.link:focus {
+	  color: hotpink;
+	}
+
+	.link-hover::after {
+	  content: '▼';
+	  font-size: 10px;
+	}
+
+/*メイン*/
+.main{
+	background-color:white;
+	height:1000px;
+}
+.試合情報{
+	font-size:25px;
+	padding-top:30px;
+}
+
+.contents{
+	text-align: center;
+}
+
+.banner1{
+	width:50%;
+	height:50%;
+	padding:10px;
+}
+
+.contents li{
+	list-style:none;
+}
+
+/*フッター*/
+.footer{
+	background-color:black;
+	height:110px;
+}
+
+.text{
+	text-align: left;
+	color:white;
+	float:left;
+	padding:0px 30px;
+}

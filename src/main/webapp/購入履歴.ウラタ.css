@@ -7,21 +7,6 @@ body{
 }
 
 
-/* 基本ブロック */
-.main, .top-menu, .footer{
-	width: 50%;
-	margin: 20px auto 50px;
-	background-color:white;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-.main p {
-	text-align: left;
-	position: relative; 
-    left: 130px
-}
 
 /* トップページ ボタン(仮)*/
 a.btn_01 {
@@ -82,48 +67,24 @@ h1::after {
     transform: skewX(45deg);
 }
 
-/*小ｳｨﾝﾄﾞｳ用*/
 .open_sub_window {
     display: block;
-    width: 120px;
+    width: 150px;
     padding: 1em 4em;
     background-color: #98fb98;
+	border: 2px solid #98fb98;
     color: black;
-	font-weight: bold;
     text-align: center;
-	transition: 0.5s;
 	text-decoration: none;
-    cursor: pointer;
-	position: relative; 
-	left: 100px;
-	top: 20px;
-}
-.open_sub_window_02 {
-    display: block;
-    width: 120px;
-    padding: 1em 4em;
-    background-color: #98fb98;
-    color: black;
+	margin: auto;
 	font-weight: bold;
-    text-align: center;
 	transition: 0.5s;
-	text-decoration: none;
-    cursor: pointer;
-	left: 200px;
-	bottom: 20px;
-
 }
 .open_sub_window:hover {
     opacity: 0.8;
 }
-open_sub_window_02:hover {
-    opacity: 0.8;
-}
 
 .check_sub_window {
-    display: none;
-}
-.check_sub_window_02 {
     display: none;
 }
 
@@ -139,32 +100,11 @@ open_sub_window_02:hover {
     opacity: 0;
     pointer-events: none;
 }
-.bg_sub_window_02 {
-    display: block;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
 .bg_sub_window:hover {
-    transition: 0.5s;
-}
-.bg_sub_window:hover_02 {
     transition: 0.5s;
 }
 
 .check_sub_window:checked + .bg_sub_window {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-    transition: 0.5s;
-}
-.check_sub_window_02:checked + .bg_sub_window_02 {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
@@ -181,23 +121,14 @@ open_sub_window_02:hover {
     background-color: #fff;
     overflow-y: auto;
 }
-.sub_window_02 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    padding: 30px;
-    max-height: 90%;
-    background-color: #fff;
-    overflow-y: auto;
-}
+
 @media screen and (max-width: 767px) {
-    .sub_window {
+    .sub_window_01 {
         width: calc(100% - 20px);
     }        
 }
 @media print, (min-width: 768px) {
-    .sub_window {
+    .sub_window_01 {
         width: 90%;
         max-width: 900px;
     }
@@ -224,43 +155,16 @@ open_sub_window_02:hover {
     width: 30px;
     height: 30px;
 }
-.close_sub_window_02 {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    transform: rotate(45deg);
-    border: none;
-    outline: none;
-    width: 30px;
-    height: 30px;
-}
 .close_sub_window::before,
 .close_sub_window::after {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #98fb98;
+    background-color: black;
     content: "";
-	position: relative; 
-	left: 45px;
-}
-.close_sub_window_02::before,
-.close_sub_window_02::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: #98fb98;
-    content: "";
-	position: relative; 
-	left: 45px;
 }
 .close_sub_window::before {
-    width: 60%;
-    height: 3px;
-}
-close_sub_window_02::before {
     width: 60%;
     height: 3px;
 }
@@ -268,21 +172,12 @@ close_sub_window_02::before {
     width: 3px;
     height: 60%;
 }
-.close_sub_window_02::after {
-    width: 3px;
-    height: 60%;
-}
 .close_sub_window:hover {
     cursor: pointer;
 }
-.close_sub_window_02:hover {
-    cursor: pointer;
-}
+
 .sub_window_content {
     display: table;
     margin: 0px auto;
 }
-.sub_window_content_02 {
-    display: table;
-    margin: 0px auto;
-}
+

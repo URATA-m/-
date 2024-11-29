@@ -95,7 +95,7 @@ h1::after {
 	text-decoration: none;
     cursor: pointer;
 	position: relative; 
-	left: 240px;
+	left: 190px;
 }
 .open_sub_window:hover {
     opacity: 0.8;

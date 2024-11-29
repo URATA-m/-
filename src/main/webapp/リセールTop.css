@@ -9,7 +9,7 @@ body{
 
 /* 基本ブロック */
 .main, .top-menu, .footer{
-	width: 50%;
+	width: 70%;
 	margin: 20px auto 50px;
 	background-color:white;
 	text-align: center;
@@ -31,7 +31,7 @@ a.btn_01 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 45px;
+	left: 100px;
 }
 a.btn_02 {
 	display: block;
@@ -46,7 +46,7 @@ a.btn_02 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 210px
+	left: 260px
 }
 a.btn_03 {
 	display: block;
@@ -61,7 +61,7 @@ a.btn_03 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 45px;
+	left: 100px;
 }
 a.btn_04 {
 	display: block;
@@ -76,7 +76,7 @@ a.btn_04 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 210px
+	left: 260px
 }
 
 /* トップページタイトル用 */

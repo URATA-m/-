@@ -113,10 +113,10 @@ ul li {
 
 /* 参照サイトリンク用 */
 .end{
-	width: 50%;
+	width: 30%;
 	margin: 20px auto 50px;
 	padding: 0.5rem;
 	background-color:white;
 	text-align: right;
-	opacity: 0.5;
 }
+

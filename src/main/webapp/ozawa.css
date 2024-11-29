@@ -15,6 +15,7 @@ body{
 	text-align: center;
 }
 
+
 /* トップページ ボタン(仮)*/
 a.btn_01 {
 	display: block;
@@ -74,12 +75,19 @@ h1::after {
     transform: skewX(45deg);
 }
 
+/* 見出しページ */
+.sub {
+	width: 50%;
+	margin: 20px auto 50px;
+	padding: 0.5rem;
+	background-color:#98fb98;
+	text-align: center;
+	}
 
-/* NEWSページ用 */
+/* NEWSページ リスト用 */
 ul {
 	list-style-type: none;
 }
-
 
 ul li {
 	width: 80%;
@@ -92,6 +100,7 @@ ul li {
     color: #333;
     line-height: 1.5;
 }
+
 
 /* NEWSの詳細ページ用*/
 .news-page{
@@ -109,15 +118,35 @@ ul li {
 	padding: 0.5rem;
 	background-color:white;
 	text-align: center;
+	}
+
+/* 戻るボタン */
+ a.back {
+	position: relative;
+				bottom: 10%;
+				right: 35%;
+	display: block;
+	text-align: center;		
+	text-decoration: none;
+	width: 5%;
+	margin: auto;
+	padding: 0.5rem 0.5rem;
+	font-weight: bold;
+	border: 2px solid #98fb98;
+	background: #98fb98;
+	color: black;
+	transition: 0.5s;
+	
 }
 
 /* 参照サイトリンク用 */
-.end{
-	width: 30%;
+.copy{
+	width: 50%;
 	margin: 20px auto 50px;
 	padding: 0.5rem;
 	background-color:white;
-	text-align: right;
-	
+	opacity: .5;
+	text-align: right;	
 }
+
 

@@ -3,30 +3,33 @@
 <head>
 <meta charset="UTF-8">
 	<title>NEWS</title>
+	
 	<link rel="stylesheet" type="text/css" href="./ozawa.css">
 	<style>
-		.news{
-			width: 50%;
-			margin: 20px auto 50px;
-			padding: 0.5rem;
-			background-color:white;
-			text-align: center;
-			}
-		
 		/* 戻るボタン用 */
-		.back{
-			background-color:white;
-			padding: 0.5rem;
-			position:relative;
-			bottom: 10px;
-			left: 180px;
-			}
+		a.news_back {
+			position: relative;
+						bottom: 10%;
+						right: 35%;
+			display: block;
+			text-align: center;		
+			text-decoration: none;
+			width: 5%;
+			margin: auto;
+			padding: 0.5rem 0.5rem;
+			font-weight: bold;
+			border: 2px solid #98fb98;
+			background: #98fb98;
+			color: black;
+			transition: 0.5s;
+		    }
 	</style>
+
 </head>
 
 <body>
 	
-	<div class="news">
+	<div class="sub">
 	<h2>ＮＥＷＳ</h2>
 	</div>
 	
@@ -41,12 +44,14 @@
 	</ul>
 	
 	<br>
-	<a class="back" href="./会員Top.ウラタ.html">戻る</a>
 	
-	<div class="end">
+	
+	<a href="./会員Top.ウラタ.html" class="news_back">戻る</a>
+	
+	
+	<div class="copy">
 		&copy;<a href="https://pa-tu.work/">Pa-Tu</a>
 		<br>
-		
 	</div>
 	
 </body>

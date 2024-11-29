@@ -1,10 +1,13 @@
 @charset "UTF-8";
+
+
+
 .open_sub_window {
     display: block;
     width: 15em;
     padding: 1em 2em;
     border-radius: 10px;
-    background-color: #3388dd;
+    background-color: #98fb98;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -78,7 +81,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #3388dd;
+    background-color: #98fb98;
     content: "";
 }
 .close_sub_window::before {
@@ -102,7 +105,7 @@
     width: 15em;
     padding: 1em 2em;
     border-radius: 10px;
-    background-color: #3388dd;
+    background-color: #98fb98;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -176,7 +179,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #3388dd;
+    background-color: #98fb98;
     content: "";
 }
 .close_sub_window_02::before {

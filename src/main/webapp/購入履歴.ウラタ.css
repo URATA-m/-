@@ -1,16 +1,117 @@
 @charset "UTF-8";
 
+/* 背景画像の設定 */
+body{
+	background-image: url(./img/ぼかし.JPG);
+	background-size: cover;
+}
 
 
+/* 基本ブロック */
+.main, .top-menu, .footer{
+	width: 50%;
+	margin: 20px auto 50px;
+	background-color:white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main p {
+	text-align: left;
+	position: relative; 
+    left: 130px
+}
+
+/* トップページ ボタン(仮)*/
+a.btn_01 {
+	display: block;
+	text-align: center;		
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #98fb98;
+	background: #98fb98;
+	color: black;
+	transition: 0.5s;
+}
+
+
+/* トップページタイトル用 */
+.header{
+	margin: 20px auto 50px;
+	width: 60%;
+	text-align: center;
+}
+
+h1 {
+    position: relative;
+    padding: 1rem;
+    border: solid #353535;
+    border-width: 3px;
+    background-color: #98fb98;
+    color: #353535;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+h1::before,
+h1::after {
+    position: absolute;
+    background-color: #353535;
+    border: 3px solid;
+    content: '';
+}
+
+h1::before {
+    top: 2px;
+    right: -13px;
+    width: 4px;
+    height: 100%;
+    transform: skewY(45deg);
+}
+
+h1::after {
+    bottom: -13px;
+    left: 2px;
+    width: 100%;
+    height: 4px;
+    transform: skewX(45deg);
+}
+
+/*小ｳｨﾝﾄﾞｳ用*/
 .open_sub_window {
     display: block;
-    width: 15em;
-    padding: 1em 2em;
-    border-radius: 10px;
+    width: 120px;
+    padding: 1em 4em;
     background-color: #98fb98;
-    color: #fff;
+    color: black;
+	font-weight: bold;
     text-align: center;
+	transition: 0.5s;
+	text-decoration: none;
     cursor: pointer;
+	position: relative; 
+	left: 100px;
+	top: 20px;
+}
+.open_sub_window2 {
+    display: block;
+    width: 120px;
+    padding: 1em 4em;
+    background-color: #98fb98;
+    color: black;
+	font-weight: bold;
+    text-align: center;
+	transition: 0.5s;
+	text-decoration: none;
+    cursor: pointer;
+	position: relative; 
+	left: 400px;
+	bottom: 35px;
 }
 .open_sub_window:hover {
     opacity: 0.8;
@@ -83,6 +184,8 @@
     transform: translateX(-50%) translateY(-50%);
     background-color: #98fb98;
     content: "";
+	position: relative; 
+	left: 45px;
 }
 .close_sub_window::before {
     width: 60%;
@@ -97,104 +200,6 @@
 }
 
 .sub_window_content {
-    display: table;
-    margin: 0px auto;
-}
-.open_sub_window_02 {
-    display: block;
-    width: 15em;
-    padding: 1em 2em;
-    border-radius: 10px;
-    background-color: #98fb98;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-}
-.open_sub_window_02:hover {
-    opacity: 0.8;
-}
-
-.check_sub_window_02 {
-    display: none;
-}
-
-.bg_sub_window_02 {
-    display: block;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
-.bg_sub_window_02:hover {
-    transition: 0.5s;
-}
-
-.check_sub_window_02:checked + .bg_sub_window {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-    transition: 0.5s;
-}
-
-.sub_window_02 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    padding: 30px;
-    max-height: 90%;
-    background-color: #fff;
-    overflow-y: auto;
-}
-@media screen and (max-width: 767px) {
-    .sub_window {
-        width: calc(100% - 20px);
-    }        
-}
-@media print, (min-width: 768px) {
-    .sub_window {
-        width: 90%;
-        max-width: 900px;
-    }
-}
-
-.close_sub_window_02 {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    transform: rotate(45deg);
-    border: none;
-    outline: none;
-    width: 30px;
-    height: 30px;
-}
-.close_sub_window_02::before,
-.close_sub_window_02::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    background-color: #98fb98;
-    content: "";
-}
-.close_sub_window_02::before {
-    width: 60%;
-    height: 3px;
-}
-.close_sub_window_02::after {
-    width: 3px;
-    height: 60%;
-}
-.close_sub_window_02:hover {
-    cursor: pointer;
-}
-
-.sub_window_content_02 {
     display: table;
     margin: 0px auto;
 }

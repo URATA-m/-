@@ -13,6 +13,14 @@ body{
 	margin: 20px auto 50px;
 	background-color:white;
 	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main p {
+	text-align: left;
+	position: relative; 
+    left: 130px
 }
 
 /* トップページ ボタン(仮)*/
@@ -77,13 +85,17 @@ h1::after {
 /*小ｳｨﾝﾄﾞｳ用*/
 .open_sub_window {
     display: block;
-    width: 15em;
-    padding: 1em 2em;
-    border-radius: 10px;
+    width: 120px;
+    padding: 1em 4em;
     background-color: #98fb98;
-    color: #fff;
+    color: black;
+	font-weight: bold;
     text-align: center;
+	transition: 0.5s;
+	text-decoration: none;
     cursor: pointer;
+	position: relative; 
+	left: 240px;
 }
 .open_sub_window:hover {
     opacity: 0.8;
@@ -156,6 +168,8 @@ h1::after {
     transform: translateX(-50%) translateY(-50%);
     background-color: #98fb98;
     content: "";
+	position: relative; 
+	left: 45px;
 }
 .close_sub_window::before {
     width: 60%;

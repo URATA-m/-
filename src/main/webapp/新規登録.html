@@ -4,37 +4,25 @@
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
 		<link rel="stylesheet" type="text/css" href="./iwamuro.css">
-			<style>	
-				.pic_frame {
-					display: inline-block;
-					text-align: center;
-					   }
-					.copy{
-						width: 50%;
-						margin: 20px auto 50px;
-						padding: 0.5rem;
-						background-color:white;
-						opacity: .5;
-						text-align: right;	
-					}
-			</style>
+			
 	</head>
 	<body>
 		<div class="header">
 			<h1>新規会員登録フォーム</h1>
 		</div>
-			<form class="main" id="frm" name="frm" action="マイページ.html" method="post">
+		<div class="main">
+			<form id="frm" name="frm" action="マイページ.html" method="post">
 				<label for="name">氏名</label><br>
 				<input type="text" id="name" name="name" required><br>
 				<br>
 				<label for="birthdate">生年月日</label><br>
-				<input type="date" id="birthdate" name="birthdate" required=><br>
+				<input type="date" id="birthdate" name="birthdate" required><br>
 				<br>
 				<label>住所</label><br>
 				<label for="postal-code">郵便番号:</label>
-				<input type="text" id="postal-code" name="postal-code" placeholder="例: 123-4567" required=><br>
+				<input type="text" id="postal-code" name="postal-code" placeholder="例: 123-4567" required><br>
 				<label for="prefecture">都道府県:</label>
-				<select id="prefecture" name="prefecture" required=>
+				<select id="prefecture" name="prefecture" required>
 					<option value="">選択してください</option>
 				    <option value="北海道">北海道</option>
 				    <option value="青森県">青森県</option>
@@ -114,7 +102,6 @@
 				<input type="reset" value="キャンセル">
 				<br>
 			</form>
-		
-
+		</div>
 	</body>
 </html>

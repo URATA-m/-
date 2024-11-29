@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+	font-family:"Avenir Next";
+	background-image: url(./img/ぼかし.JPG);
+	background-size: cover;
+	margin-right:10%;
+	margin-left:10%;
+
+}
+
+/*商品購入欄*/
+
+.quantity {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+}
+.quantity button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.quantity input {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.purchase-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.purchase-button:hover {
+    background-color: #0056b3;
+}
+
+.product{
+	padding:20px 20px;
+	margin: 20px 0;
+	text-align: center;
+	background-color: white;
+	margin-right:40%;
+	margin-left:40%;
+
+}

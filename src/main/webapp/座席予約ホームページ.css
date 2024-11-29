@@ -7,13 +7,9 @@ body{
 
 }
 
-li{
-	list-style:none;
-}
-
 /*ヘッダー*/
 .header{
-	background-color:#98fb98;
+	background-color:red;
 	color:#fff;
 	height:90px;
 }
@@ -98,10 +94,9 @@ a {
 
 /*メイン*/
 .main{
-	padding:20px 80px;
+	padding:80px 80px;
 	background-color: white;
-	margin-right:10%;
-	margin-left:10%;
+	height:1000px;
 }
 
 .copy-container{

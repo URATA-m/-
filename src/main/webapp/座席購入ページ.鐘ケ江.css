@@ -1,0 +1,86 @@
+@charset "UTF-8";
+   body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        text-align: center;
+		background-image: url(./img/ぼかし.JPG);
+		background-size: cover;
+/*ヘッダー*/
+    }
+	.header{
+		background-color:#98fb98;
+		color:#fff;
+		height:90px;
+	}
+
+	.header-logo{
+		float:left;
+		font-size:36px;
+		padding:20px 40px;
+	}
+/*メイン*/	
+	.main{
+	background-color: white;
+	height:700px;	
+	}	
+	
+	.baseballsheet{
+		float:left;
+	}
+	
+	.picture{
+		padding:30px;
+		padding-left:100px;
+	}
+	
+	/*商品購入欄*/
+    .product {
+        margin: 20px 0;
+    }
+	
+    .quantity {
+        display: inline-flex;
+        align-items: center;
+        margin: 10px;
+    }
+    .quantity button {
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .quantity input {
+        width: 50px;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 10px;
+    }
+    .purchase-button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .purchase-button:hover {
+        background-color: #0056b3;
+    }
+	
+/*フッター*/
+.footer{
+	background-color:black;
+	height:110px;
+}
+
+.text{
+	text-align: left;
+	color:white;
+	float:left;
+	padding:0px 30px;
+}
+	
+	
+	
+	
+	

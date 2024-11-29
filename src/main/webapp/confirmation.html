@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購入確認</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .confirmation {
+            margin: 20px 0;
+        }
+        .confirm-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .confirm-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>購入確認</h1>
+    <div class="confirmation">
+        <p id="quantity-display">選択した個数: </p>
+        <button class="confirm-button" onclick="completePurchase()">購入を確定する</button>
+    </div>
+    <script>
+        // URLから個数を取得して表示
+        const urlParams = new URLSearchParams(window.location.search);
+        const quantity = urlParams.get('quantity');
+        document.getElementById('quantity-display').innerText = `選択した個数: ${quantity} 個`;
+
+        // 購入確定ボタンの動作
+        function completePurchase() {
+            alert(`購入が確定しました！\n個数: ${quantity} 個`);
+            // 完了後に別のページに遷移する場合
+            // window.location.href = "thankyou.html";
+        }
+    </script>
+</body>
+</html>

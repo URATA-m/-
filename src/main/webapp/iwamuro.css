@@ -66,16 +66,17 @@ a.btn_02 {
 	background: #98fb98;
 	color: black;
 	transition: 0.5s;
+}
 
 /*フッター*/
-.footer {
+.footer{
 	background-color:black;
 	height:110px;
-	}
+}
 
-.text {
+.text{
 	text-align: left;
 	color:white;
 	float:left;
 	padding:0px 30px;
-	}
+}

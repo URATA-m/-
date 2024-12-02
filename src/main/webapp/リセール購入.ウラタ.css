@@ -8,7 +8,7 @@ body{
 
 
 /* 基本ブロック */
-.main, .top-menu, .footer{
+.main, .top-menu{
 	width: 50%;
 	margin: 20px auto 50px;
 	background-color:white;
@@ -95,7 +95,7 @@ h1::after {
 	text-decoration: none;
     cursor: pointer;
 	position: relative; 
-	left: 190px;
+	left: 250px;
 }
 .open_sub_window:hover {
     opacity: 0.8;

@@ -31,7 +31,7 @@ a.btn_01 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 100px;
+	left: 80%;
 }
 a.btn_02 {
 	display: block;
@@ -46,7 +46,7 @@ a.btn_02 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 260px
+	left: 350px
 }
 a.btn_03 {
 	display: block;
@@ -61,7 +61,7 @@ a.btn_03 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 100px;
+	left: 80%;
 }
 a.btn_04 {
 	display: block;
@@ -76,7 +76,7 @@ a.btn_04 {
 	color: black;
 	transition: 0.5s;
 	position: relative; 
-	left: 260px
+	left: 350px
 }
 
 /* トップページタイトル用 */
@@ -167,4 +167,17 @@ ul li {
 	background-color:white;
 	text-align: right;
 	opacity: 0.5;
+}
+
+/*フッター*/
+.footer{
+	background-color:black;
+	height:110px;
+}
+
+.text{
+	text-align: left;
+	color:white;
+	float:left;
+	padding:0px 30px;
 }

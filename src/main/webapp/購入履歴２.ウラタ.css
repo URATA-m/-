@@ -7,7 +7,7 @@ body{
 }
 
 /* 基本ブロック */
-.main, .top-menu, .footer{
+.main, .top-menu{
 	width: 50%;
 	margin: 20px auto 50px;
 	background-color:white;
@@ -20,6 +20,23 @@ body{
 	text-align: left;
 	position: relative; 
     left: 200px
+}
+
+/*フッター*/
+.footer{
+	background-color:black;
+	height:110px;
+	width: 50%;
+	text-align: center;
+	margin: 20px auto 50px;
+}
+
+.text{
+	text-align: left;
+	color:white;
+	float:left;
+	padding:0px 30px;
+	
 }
 
 

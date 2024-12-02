@@ -170,24 +170,16 @@ a {
 	padding:10px;
 }
 
-
 /*フッター*/
 .footer{
-	background-color:#2f5167;
-	color:#fff;
-	height:120px;
-	padding:40px;
+	background-color:black;
+	height:110px;
 }
 
-.footer-logo{
+.foot{
+	text-align: left;
+	color:white;
 	float:left;
-	font-size:32px;
+	padding:0px 30px;
 }
-
-.footer-list{
-	float:right;
-}
-
-.footer-list li{
-	padding-bottom:20px;
-}
+	

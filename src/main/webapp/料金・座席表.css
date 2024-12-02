@@ -1,0 +1,184 @@
+@charset "UTF-8";
+body{
+	text-align: center;
+}
+
+/*ヘッダー*/
+/*ヘッダー*/
+.header{
+	background-color:#98fb98;
+	color:#fff;
+	height:90px;
+}
+
+.header-logo{
+	float:left;
+	font-size:36px;
+	padding:20px 40px;
+}
+
+.header-list{
+	float:left;
+}
+
+.header-list li{
+	float:left;
+	padding:20px 20px;
+}
+
+/*ヘッダー＞マウスホバー*/
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+	color: #fff;
+  text-decoration: none;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 0px;
+  transition: color .15s;
+}
+.link:hover,
+.link:focus {
+  color: hotpink;
+}
+
+.link-hover::after {
+  content: '▼';
+  font-size: 10px;
+}
+
+.dropDown {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px -2px #777;
+  color: initial;
+  transform: translate(0, 100%);
+}
+
+.link:hover > .dropDown,
+.link:focus > .dropDown {
+  display: block;
+}
+
+.dropDown__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dropDown__link {
+	white-space: nowrap;
+	color:black;
+  padding: 10px 20px;
+  transition: color .15s;
+}
+
+.dropDown__link:hover,
+.dropDown__link:focus {
+  color: hotpink;
+}
+
+/*メイン*/
+.main{
+	margin-right:20%;
+	margin-left:20%;
+}
+
+.green1{
+	background-color: #98fb98;
+	margin:30px 0px;
+}
+
+.green2{
+	background-color: #98fb98;
+}
+
+.green3{
+	background-color: #98fb98;
+}
+
+.sheet1{
+	text-align: center;
+}
+
+.sheet1 th{
+	background-color: #e0e0e0;
+}
+
+.sheet2 th{
+	background-color: #e0e0e0;
+}
+
+.sheet3 th{
+	background-color: #e0e0e0;
+}
+
+.table{
+	text-align: center;
+}
+
+	/*外野*/
+.外野{
+	text-align: left;
+	font-size:20px;
+	font-weight: bold;
+}
+
+	/*内野*/
+.内野{
+	text-align: left;
+	font-size:20px;
+	font-weight: bold;
+}	
+
+	/*バックネット*/
+.バックネット{
+	text-align: left;
+	font-size:20px;
+	font-weight: bold;
+}	
+
+.caution{
+	margin: 16px auto;
+	text-align: center;
+	display: block;
+}
+
+.text{
+	text-align: left;
+	display: inline-block;
+}
+
+.caution ul {
+	padding-left: 0;
+	display: inline-block;
+}
+
+.caution ul li {
+	text-align: left;
+}
+
+/*フッター*/
+.footer{
+	background-color:black;
+	height:110px;
+}
+
+.foot{
+	text-align: left;
+	color:white;
+	float:left;
+	padding:0px 30px;
+}
+	

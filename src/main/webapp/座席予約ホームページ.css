@@ -11,7 +11,7 @@ body{
 
 /*ヘッダー*/
 .header{
-	background-color:red;
+	background-color:#98fb98;
 	color:#fff;
 	height:90px;
 }
@@ -165,9 +165,13 @@ a {
 
 .homebanner{
 	text-align: center;
+	
+}
+
+.ball{
 	width:50%;
-	height:50%;
-	padding:10px;
+		height:50%;
+		padding:10px;	
 }
 
 /*フッター*/

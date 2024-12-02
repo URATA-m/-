@@ -120,6 +120,8 @@ ul li {
 	text-align: center;
 	}
 
+	
+	
 /* 戻るボタン */
  a.back {
 	position: relative;
@@ -138,17 +140,3 @@ ul li {
 	transition: 0.5s;
 	
 }
-
-/*フッター*/
-.footer{
-	background-color:black;
-	height:110px;
-}
-
-.text{
-	text-align: left;
-	color:black;
-	float:left;
-	padding:0px 30px;
-}
-	

@@ -171,7 +171,8 @@ a {
 .ball{
 	width:50%;
 		height:50%;
-		padding:10px;	
+		padding:10px;
+		padding:50px 50px;	
 }
 
 /*フッター*/

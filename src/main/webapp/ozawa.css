@@ -8,7 +8,7 @@ body{
 
 
 /* 基本ブロック */
-.main, .top-menu, .footer{
+.main, .top-menu{
 	width: 50%;
 	margin: 20px auto 50px;
 	background-color:white;
@@ -147,9 +147,8 @@ ul li {
 
 .text{
 	text-align: left;
-	color:white;
+	color:black;
 	float:left;
 	padding:0px 30px;
 }
-
-
+	

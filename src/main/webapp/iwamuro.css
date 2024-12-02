@@ -67,12 +67,15 @@ a.btn_02 {
 	color: black;
 	transition: 0.5s;
 
-/* NEWSの詳細ページ用*/
+/*フッター*/
+.footer {
+	background-color:black;
+	height:110px;
+	}
 
-
-
-/* FOOD+GOODSページ */
-
-
-/* 参照サイトリンク用 */
-
+.text {
+	text-align: left;
+	color:white;
+	float:left;
+	padding:0px 30px;
+	}
